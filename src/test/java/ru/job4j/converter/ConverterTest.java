@@ -1,12 +1,7 @@
 package ru.job4j.converter;
-
 import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
-
 public class ConverterTest {
-
     @Test
     public void whenConvert140RblThen2Euro() {
         float in = 140;
@@ -14,9 +9,7 @@ public class ConverterTest {
         float out = Converter.rubleToEuro(in);
         float eps = 0.0001f;
         Assert.assertEquals(expected, out, eps);
-
     }
-
     @Test
     public void whenConvert200RblThen3dot3333Dlr() {
         float in = 120;
