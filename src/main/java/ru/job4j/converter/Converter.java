@@ -20,8 +20,8 @@ public class Converter {
         float dollar = Converter.rubleToDollar(120);
         float in1 = 120;
         float expected1 = 2;
-        float out1 = Converter.rubleToDollar(in);
-        boolean passed1 = expected == out;
+        float out1 = Converter.rubleToDollar(in1);
+        boolean passed1 = expected1 == out1;
         System.out.println("120 rubles are " + dollar + " dollar.");
         System.out.println("120 rubles are 2. Test result : " + passed1);
 
