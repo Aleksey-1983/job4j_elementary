@@ -12,10 +12,11 @@ public class ConverterTest {
         float eps = 0.0001f;
         Assert.assertEquals(expected, out, eps);
     }
+
     @Test
     public void whenConvert200RblThen3dot3333Dlr() {
-        float in = 180;
-        float expected = 3;
+        float in = 200;
+        double expected = 3.3333;
         float out = Converter.rubleToDollar(in);
         float eps = 0.0001f;
         Assert.assertEquals(expected, out, eps);
