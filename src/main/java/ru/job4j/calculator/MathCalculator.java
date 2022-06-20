@@ -16,7 +16,7 @@ public class MathCalculator {
 
     }
 
-    public static double sumall(double first, double second) {
+    public static double next(double first, double second) {
         return sum(first, second)
                 + multiply(first, second)
                 + subtract(first, second)
@@ -25,8 +25,8 @@ public class MathCalculator {
 
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
-        System.out.println("Результат расчета равен: " + subtractAndShape(20, 30));
-        System.out.println("Результат расчета равен: " + sumall(20, 30));
+        System.out.println("Результат расчета равен: " + subtractAndShape(10, 20));
+        System.out.println("Результат расчета равен: " + next(10, 20));
     }
 
 }
