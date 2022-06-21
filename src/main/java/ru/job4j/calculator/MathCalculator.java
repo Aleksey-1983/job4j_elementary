@@ -7,13 +7,11 @@ public class MathCalculator {
     public static double sumAndMultiply(double first, double second) {
         return sum(first, second)
                 + multiply(first, second);
-
     }
 
     public static double subtractAndShape(double first, double second) {
         return subtract(first, second)
                 + shape(first, second);
-
     }
 
     public static double next(double first, double second) {
@@ -30,5 +28,3 @@ public class MathCalculator {
     }
 
 }
-
-
