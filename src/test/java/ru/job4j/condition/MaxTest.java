@@ -25,10 +25,10 @@ public class MaxTest {
 
     @Test
     public void whenMax1To2Then12() {
-        int left = 2;
-        int right = 2;
+        int left = 3;
+        int right = 3;
         int result = Max.max(left, right);
-        int expected = 2;
+        int expected = 3;
         Assert.assertEquals(result, expected);
     }
 }
