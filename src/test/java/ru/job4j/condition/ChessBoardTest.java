@@ -18,13 +18,13 @@ public class ChessBoardTest {
 
     @Test
     public void wayIs7() {
-        int x1 =7;
+        int x1 = 7;
         int y1 = 0;
         int x2 = 0;
         int y2 = 7;
         int result = ChessBoard.way(x1, y1, x2, y2);
         int expected = 7;
-        Assert.assertEquals(expected,result);
+        Assert.assertEquals(expected, result);
     }
 
     @Test
@@ -37,7 +37,6 @@ public class ChessBoardTest {
         int expected = 0;
         Assert.assertEquals(expected, result);
     }
-
 
     @Test
     public void whenX2isMinus1ThenWayIs0() {
