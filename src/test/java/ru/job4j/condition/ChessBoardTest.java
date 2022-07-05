@@ -88,9 +88,9 @@ public class ChessBoardTest {
         int y1 = 6;
         int x2 = 10;
         int y2 = 1;
-        int result = ChessBoard.way(x1, y1, x2, y2);
+        int result1 = ChessBoard.way(x1, y1, x2, y2);
         int expected = 0;
-        Assert.assertEquals(expected, result);
+        Assert.assertEquals(expected, result1);
     }
 
     @Test
