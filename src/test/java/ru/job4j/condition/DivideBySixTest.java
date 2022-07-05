@@ -8,13 +8,13 @@ public class DivideBySixTest {
     public void whenNumberDivideBy6() {
         int in = 24;
         String result = DivideBySix.checkNumber(in);
-        String expected = "Исходное число делится на 6.";
+        String expected = "Исходное число делится на 6 .";
         Assert.assertEquals(expected, result);
     }
 
     @Test
     public void whenNumberDivideBy3AndNotEven() {
-        int in =27;
+        int in = 27;
         String result = DivideBySix.checkNumber(in);
         String expected = "Исходное число делится на 3, но не является четным.";
         Assert.assertEquals(expected, result);
