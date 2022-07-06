@@ -66,7 +66,7 @@ public class SwitchWeekTest {
     public void when8ToError() {
         int in = 8;
         String result = SwitchWeek.nameOFDay(in);
-        String expected = "Нет такого дня недели";
-        Assert.assertEquals(expected,result);
+        String expected = "Нет такого дня недели.";
+        Assert.assertEquals(expected, result);
     }
 }
