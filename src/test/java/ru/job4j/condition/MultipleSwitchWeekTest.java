@@ -7,10 +7,10 @@ public class MultipleSwitchWeekTest {
 
     @Test
     public void whenMondayTo1() {
-        String name = "Понедельник";
+        String name = "Понедельник.";
         int result = MultipleSwitchWeek.numberOfDay(name);
         int expected = 1;
-        Assert.assertEquals(expected,result);
+        Assert.assertEquals(expected, result);
     }
 
     @Test
