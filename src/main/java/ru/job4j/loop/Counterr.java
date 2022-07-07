@@ -27,7 +27,7 @@ public class Counterr {
         System.out.println(sum(5, 9));
         System.out.println(sumByEven(0, 10));
         System.out.println(sumByEven(3, 8));
-        System.out.println(sumByEven(1, 1));
+        System.out.println(sumByEven(2, 2));
     }
 }
 
