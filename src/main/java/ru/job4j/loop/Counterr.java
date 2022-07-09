@@ -3,17 +3,17 @@ package ru.job4j.loop;
 public class Counterr {
     public static int sum(int start, int finish) {
         int sum = 0;
-        for (int sum1 = start; sum1 <= finish; sum1++) {
-            sum = sum + sum1;
+        for (int i = start; i <= finish; i++) {
+            sum = sum + i;
         }
         return sum;
     }
 
     public static int sumByEven(int start, int finish) {
         int sum = 0;
-        for (int sum1 = start; sum1 <= finish; sum1++) {
-            if (0 == (sum1 % 2)) {
-                sum = sum + sum1;
+        for (int i = start; i <= finish; i++) {
+            if (0 == (i % 2)) {
+                sum = sum + i;
             }
         }
         return sum;
@@ -26,7 +26,7 @@ public class Counterr {
         System.out.println(sum(2, 5));
         System.out.println(sum(5, 9));
         System.out.println(sumByEven(0, 10));
-        System.out.println(sumByEven(3, 8));
+        System.out.println(sumByEven(4, 8));
         System.out.println(sumByEven(1, 1));
     }
 }

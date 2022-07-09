@@ -15,7 +15,7 @@ public class CounterrTest {
 
     @Test
     public void whenSumEvenNumbersFromThreeToEightThenEighteen() {
-        int start = 3;
+        int start = 4;
         int finish = 8;
         int result = Counterr.sumByEven(start, finish);
         int expected = 18;
