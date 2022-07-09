@@ -3,8 +3,8 @@ package ru.job4j.loop;
 public class Counter {
     public static int sum(int start, int finish) {
         int sum = 0;
-        for (int sum1 = start; sum1 <= finish; sum1++) {
-            sum = sum + sum1;
+        for (int i = start; i <= finish; i++) {
+            sum = sum + i;
         }
         return  sum;
     }
