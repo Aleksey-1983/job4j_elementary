@@ -6,7 +6,6 @@ public class Fitness {
         while (ivan <= nik) {
             ivan *= 3;
             nik *= 2;
-            System.out.println(month);
             month++;
         }
         return month;
