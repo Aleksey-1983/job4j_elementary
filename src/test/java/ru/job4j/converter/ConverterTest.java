@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class ConverterTest {
     @Test
-    public void whenConvert140RblThen2Euro() {
+    public void whenConvert210RblThen2Euro() {
         float in = 140;
         float expected = 2;
         float out = Converter.rubleToEuro(in);
