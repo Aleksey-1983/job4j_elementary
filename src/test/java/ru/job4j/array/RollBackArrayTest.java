@@ -32,8 +32,8 @@ public class RollBackArrayTest {
 
     @Test
     public void whenTheSame() {
-        int[] input = new int[]{1, 1, 1, 1};
-        int[] expected = new int[]{1, 1, 1, 1};
+        int[] input = new int[]{1, 1, 1, 2};
+        int[] expected = new int[]{2, 1, 1, 1};
         int[] result = RollBackArray.rollback(input);
         assertArrayEquals(expected, result);
     }
