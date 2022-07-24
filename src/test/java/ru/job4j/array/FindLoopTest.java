@@ -26,7 +26,7 @@ public class FindLoopTest {
     @Test
     public void whenArrayHas10Then9() {
         int[] data = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        int el = 10;
+        int el = 11;
         int result = FindLoop.indexOf(data, el);
         int expected = 9;
         assertThat(result).isEqualTo(expected);
