@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-class MatrixSumTest {
+public class MatrixSumTest {
     @Test
     public void whenSingle() {
         int[][] array = {{10}};
