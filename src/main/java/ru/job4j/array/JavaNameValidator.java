@@ -8,10 +8,10 @@ public class JavaNameValidator {
         for (int i = 1; i < name.length(); i++) {
             int code = name.codePointAt(i);
             if (!isSpecialSymbol(code) || !isUpperLatinLetter(code) || !isLowerLatinLetter(code) || !isDigit(code)) {
-                return true;
+                return false;
             }
         }
-        return false;
+        return true;
     }
 
     public static boolean isSpecialSymbol(int code) {
