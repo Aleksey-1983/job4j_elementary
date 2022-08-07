@@ -46,4 +46,3 @@ class JavaNameValidatorTest {
         assertThat(isNameValid("fir$t_u$er_1")).isTrue();
     }
 }
-
